@@ -26,7 +26,7 @@ This dataset is based on data from the 1990 California census.
 {RMSE IMAGE HERE}
 
 # Data Distribution
-{hist  here}
+![](https://github.com/TYW02/housing_prediction/blob/main/images/attribute_histogram_plots.png)
 * The Median Income does not look like it is expressed in US dollars. It has been capped at 15 for higher median income and 0.5 for lower median income.
     * The numbers represent roughly ten thousand dollars (3 actually means $30,000)
 * The housing median age and median house value were also capped.
@@ -38,14 +38,16 @@ This dataset is based on data from the 1990 California census.
 
 
 # Visualizing Geographical Data
-{INSERT MAP}
+![bad_map](https://github.com/TYW02/housing_prediction/blob/main/images/bad_visualization_plot.png)
+![better_map](https://github.com/TYW02/housing_prediction/blob/main/images/better_visualization_plot.png)
+![california_map](https://github.com/TYW02/housing_prediction/blob/main/images/california_housing_prices_plot.png)
 * This image tells you that the housing prices are very much related to the location (e.g., close to the ocean) and to the population density.
 
 # Data Correlation
-{INSERT SCATTER MATRIX}
+![scatter_matrix](https://github.com/TYW02/housing_prediction/blob/main/images/scatter_matrix_plot.png)
 * The most  promising attribute to predict the median house value is the median income
 
-{INSERT MEDIAN INCOME GRAPH}
+![](https://github.com/TYW02/housing_prediction/blob/main/images/income_vs_house_value_scatterplot.png)
 * This plot reveals a few things. 
 1. First, the correlation is indeed very strong; you can clearly see the upward trend, and the points are not too dispersed. 
 2. Second, the price cap that we noticed earlier is clearly visible as a horizontal line at $500,000. But this plot reveals other less obvious straight lines: a horizontal line around $450,000, another around $350,000, perhaps one around $280,000, and a few more below that.
