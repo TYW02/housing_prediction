@@ -23,7 +23,7 @@ This dataset is based on data from the 1990 California census.
 # Performance Metrics
 * The Performance Metrics we are using to measure our model's performance is Root Mean Square Error (RMSE). 
    * It gives us an idea of how much error the system typically makes in its predictions, with a higher weight for large errors. 
-{RMSE IMAGE HERE}
+![](https://github.com/TYW02/housing_prediction/blob/main/images/rmse_equation.png)
 
 # Data Distribution
 ![](https://github.com/TYW02/housing_prediction/blob/main/images/attribute_histogram_plots.png)
@@ -32,7 +32,8 @@ This dataset is based on data from the 1990 California census.
 * The housing median age and median house value were also capped.
 
 # Creating Income Categories
-{INCOME GRAPH HERE}
+![](https://github.com/TYW02/housing_prediction/blob/main/images/income_graph.png)
+![](https://github.com/TYW02/housing_prediction/blob/main/images/income_cat.png)
 * Most Median Income values are clusteres around 1.5 to 6, but some median incomes go far beyond 6. 
     * We are going to create an income category with 5 categories from 1 to 5.
 
